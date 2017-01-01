@@ -1,0 +1,150 @@
+#!/bin/bash
+
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+
+cd ~/Toolkit
+
+cd sqlmap
+git pull
+cd ..
+
+cd cimptunnel
+git pull
+cd ..
+
+cd fierce-domain-scanner
+git pull
+cd ..
+
+cd cupp
+git pull
+cd ..
+
+cd CeWL
+git pull
+cd ..
+
+cd dnscat2
+git pull
+cd ..
+
+cd phisery
+git pull
+cd ..
+
+cd Manalyze
+git pull
+cd ..
+
+cd exploitdb
+git pull
+cd ..
+
+cd secial-engineer-toolkit
+git pull
+cd ..
+
+cd cowpatty
+git pull
+cd ..
+
+cd hashcat
+git pull
+cd ..
+
+cd theHarvester
+git pull
+cd ..
+
+cd the-backdoor-factory
+git pull
+cd ..
+
+cd wafw00f
+git pull
+cd ..
+
+cd wfuzz
+git pull
+cd ..
+
+cd dex2jar
+git pull
+cd ..
+
+cd dirbuster
+git pull
+cd ..
+
+cd fluxion
+git pull
+cd ..
+
+cd joomscan
+git pull
+cd ..
+
+cd MEMSCAN
+git pull
+cd ..
+
+cd AnalyzePDF
+git pull
+cd ..
+
+cd pdfparser
+git pull
+cd ..
+
+cd peepdf
+git pull
+cd ..
+
+cd routersploit
+git pull
+cd ..
+
+cd sandbox-attacksurface-analysis-tools
+git pull
+cd ..
+
+cd wifiphisher
+git pull
+cd ..
+
+cd wpscan
+git pull
+cd ..
+
+cd rules
+git pull
+cd ..
+
+cd cucko
+git pull
+cd ..
+
+cd exploitpack
+git pull
+cd ..
+
+cd webshells
+git pull
+cd ..
+
+cd HERCULES
+git pull
+cd ..
+
+cd Cminer
+git pull
+cd ..
+
+cd The-Eye
+git pull
+cd ..
+
+

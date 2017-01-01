@@ -7,7 +7,7 @@ sudo apt-get -y dist-upgrade
 
 
 # Ubuntu Repos...
-sudo apt-get install -y sqlmap aircrack-ng wifite golang bless hexedit nasm apache2 radare2 apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0-* mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher 
+sudo apt-get install -y sqlmap aircrack-ng wifite golang bless hexedit nasm apache2 radare2 apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0-* mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher gimp vlc 
 
 # Pip
 pip install capstone
