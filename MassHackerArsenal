@@ -42,6 +42,8 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/adaptivethreat/Empire.git
+git clone https://github.com/gophish/gophish.git
 git clone https://github.com/DhavalKapil/icmptunnel.git
 git clone https://github.com/sqlmapproject/sqlmap.git
 git clone https://github.com/davidpepper/fierce-domain-scanner.git
@@ -57,6 +59,8 @@ git clone https://github.com/hashcat/hashcat.git
 git clone https://github.com/laramies/theHarvester.git
 git clone https://github.com/secretsquirrel/the-backdoor-factory.git
 git clone https://github.com/EnableSecurity/wafw00f.git
+git clone https://github.com/stephenfewer/ReflectiveDLLInjection.git
+git clone https://github.com/kstaken/dockerfile-examples.git
 git clone https://github.com/xmendez/wfuzz.git
 git clone https://github.com/pxb1988/dex2jar.git
 git clone git://git.kali.org/packages/dirbuster.git
