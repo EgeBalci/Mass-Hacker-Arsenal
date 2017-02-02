@@ -7,7 +7,7 @@ sudo apt-get -y dist-upgrade
 
 
 # Ubuntu Repos...
-sudo apt-get install -y gcc g++ automake gawk libcurl4-openssl-dev libjansson-dev xorg libc++-dev libgmp-dev python-dev sqlmap aircrack-ng wifite golang bless hexedit nasm apache2 radare2 torbrowser-launcher apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0-* mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher gimp vlc driftnet cmake make dig monodevelop wine winetricks wine-development yara libboost-regex-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev build-essential jruby jython
+sudo apt-get install -y gcc g++ automake pev gawk libcurl4-openssl-dev libjansson-dev xorg libc++-dev libgmp-dev python-dev sqlmap aircrack-ng wifite golang bless hexedit nasm apache2 radare2 torbrowser-launcher apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0-* mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher gimp vlc driftnet cmake make dig monodevelop wine winetricks wine-development yara libboost-regex-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev build-essential jruby jython scalpel foremost adb
 
 # Install Docker
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
@@ -30,9 +30,12 @@ docker pull psiinon/bodgeit
 docker pull raesene/bwapp
 
 # Pip
-pip install capstone
-pip install slowloris
-pip install scapy
+sudo pip install capstone
+sudo pip install slowloris
+sudo pip install scapy
+sudo pip install tweepy
+sudo pip install pillow
+sudo pip install exifread
 
 # Gem
 sudo gem install bettercap
@@ -43,6 +46,10 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/hypsurus/weeman.git
+git clone https://github.com/krmaxwell/tinfoleak
+git clone https://github.com/secretsquirrel/fido.git
+git clone https://github.com/gentilkiwi/mimikatz.git
 git clone https://github.com/SecurityInnovation/AuthMatrix.git
 git clone https://github.com/akheron/jansson
 git clone https://github.com/wolf9466/cpuminer-multi.git
