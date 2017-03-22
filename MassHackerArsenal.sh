@@ -46,6 +46,7 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/OffensivePython/Saddam.git
 git clone https://github.com/botherder/virustotal.git
 git clone https://github.com/Microsoft/binskim.git
 git clone https://github.com/0xd4d/dnSpy.git
