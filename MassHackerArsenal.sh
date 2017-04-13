@@ -39,6 +39,13 @@ sudo pip install tweepy
 sudo pip install pillow
 sudo pip install exifread
 sudo pip install --user powerline-status
+sudo pip install rpyc
+psudo pip install pycrypto
+psudo pip install psutil
+psudo pip install pyaml
+rsudo pip install rsa
+
+
 # Gem
 sudo gem install bettercap
 
