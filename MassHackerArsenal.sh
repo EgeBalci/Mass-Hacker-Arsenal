@@ -48,6 +48,7 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/n1nj4sec/pupy/tree/master/client
 git clone https://github.com/valyala/goloris.git
 git clone https://github.com/radare/radare2.git
 git clone https://github.com/OffensivePython/Saddam.git
