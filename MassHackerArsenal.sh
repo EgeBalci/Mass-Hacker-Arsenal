@@ -7,7 +7,8 @@ sudo apt-get -y dist-upgrade
 
 
 # Ubuntu Repos...
-sudo apt-get install -y gcc g++ automake pev gawk libcurl4-openssl-dev libjansson-dev xorg libc++-dev libgmp-dev python-dev sqlmap aircrack-ng wifite golang bless hexedit nasm apache2  torbrowser-launcher apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0-* mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher gimp vlc driftnet cmake make monodevelop wine winetricks wine-development yara libboost-regex-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev build-essential jruby jython scalpel foremost adb android-tools-adb android-sdk zmap fasm traceroute audacity gradle libdb++-dev libdb-dev libtool autotools-dev pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev pyqt4-dev-tools zsh terminatordh-autoreconf libpcap-dev nload openvp mz speedometer python2.7 libffi-dev npm denyhost fail2ban rkhunter chkrootkit psad
+sudo apt-get install -y gcc g++ automake pev gawk libcurl4-openssl-dev libjansson-dev xorg libc++-dev libgmp-dev python-dev sqlmap aircrack-ng wifite golang bless hexedit nasm apache2  torbrowser-launcher apktool rarcrack proxychains binwalk crunch espeak netdiscover rdesktop steghide libimage-exiftool-perl chromium-browser snmp fcrackzip wireshark hping3 deluge nmap dmitry nikto hydra medusa tor sshuttle virtualbox git vim javacc ruby python-pip wget curl mingw-* gem volatility upx scalpel tcpdump john masscan reaver build-essential ruby-dev libpcap-dev unzip php7.0 mysql-common mysql-client  libapache2-mod-php7.0 thunderbird remmina torbrowser-launcher gimp vlc driftnet cmake make monodevelop wine winetricks wine-development yara libboost-regex-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev build-essential jruby jython scalpel foremost adb android-tools-adb android-sdk zmap fasm traceroute audacity gradle libdb++-dev libdb-dev libtool autotools-dev pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev pyqt4-dev-tools zsh terminatordh-autoreconf libpcap-dev nload openvp mz speedometer python2.7 libffi-dev npm denyhost fail2ban rkhunter chkrootkit psad ufw
+
 
 # Install Docker
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
@@ -118,6 +119,25 @@ git clone https://github.com/EgeBalci/Cminer.git
 git clone https://github.com/EgeBalci/The-Eye.git
 git clone https://github.com/DanMcInerney/wifijammer.git
 
+### HARDENING UBUNTU ###
+
+# Remove Amazon & web apps
+
+sudo apt-get -y purge unity-lens-shopping
+sudo apt-get -y purge unity-webapps-common
+
+# AptUrl Removing:
+sudo apt-get -y purge apturl #tool, which gives possibilities to start installation by clicking on url, can be executed with js, which is not secure
+
+# Basic Telemetry Removing:
+sudo apt-get -y purge zeitgeist
+sudo apt-get -y purge zeitgeist-datahub
+sudo apt-get -y purge zeitgeist-core
+sudo apt-get -y purge zeitgeist-extension-fts
+
+# Configuring Firewall
+sudo ufw default deny incoming
+sudo ufw enable
 
 
 # Manual Installs
@@ -130,7 +150,6 @@ git clone https://github.com/DanMcInerney/wifijammer.git
 # Brup Suite
 # Nessus
 # Netsparker
-# Docker
 # Nvidia Drivers
 # PyCharm
 # Clion
@@ -139,9 +158,7 @@ git clone https://github.com/DanMcInerney/wifijammer.git
 # Atom
 # LordPE
 # Wpsoffice
-# Beef-XSS (Docker)
 # Soap UI
-# Open VAS
 # Database Browser
 # Telegram
 # Postman
