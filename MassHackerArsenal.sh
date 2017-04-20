@@ -139,6 +139,12 @@ sudo apt-get -y purge zeitgeist-extension-fts
 sudo ufw default deny incoming
 sudo ufw enable
 
+# Check For Rootkits
+sudo chkrootkit
+sudo rkhunter --update
+sudo rkhunter --propupd
+sudo rkhunter --check
+
 
 # Manual Installs
 
