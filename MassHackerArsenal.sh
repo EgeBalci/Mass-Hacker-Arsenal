@@ -31,6 +31,8 @@ docker pull psiinon/bodgeit
 docker pull raesene/bwapp
 
 # Pip
+
+sudo pip install shodan
 sudo pip install --upgrade pip
 sudo pip install --upgrade pwntools
 sudo pip install capstone
