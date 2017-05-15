@@ -58,6 +58,7 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/cloudsec/brootkit.git
 git clone https://github.com/mempodippy/vlany.git
 git clone https://github.com/unix-thrust/beurk.git
 git clone https://github.com/nmap/nmap.git
