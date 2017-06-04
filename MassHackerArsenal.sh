@@ -58,6 +58,7 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/PowerShellMafia/PowerSploit.git 
 git clone https://github.com/hiteshd/Android-Rootkit.git
 git clone https://github.com/cloudsec/brootkit.git
 git clone https://github.com/mempodippy/vlany.git
