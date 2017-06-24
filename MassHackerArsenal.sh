@@ -20,6 +20,7 @@ sudo service docker start
 
 # Docker Images
 
+docker pull pierrickv/hackazon
 docker pull matteoggl/gophish
 docker pull mysql/mysql-server
 docker pull wordpress
