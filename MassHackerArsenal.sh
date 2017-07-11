@@ -33,6 +33,7 @@ docker pull raesene/bwapp
 
 # Pip
 
+sudo pip install impacket
 sudo pip install shodan
 sudo pip install --upgrade pip
 sudo pip install --upgrade pwntools
