@@ -60,6 +60,7 @@ cd Toolkit
 
 # Git Repos...
 
+git clone https://github.com/DataSploit/datasploit.git
 git clone https://github.com/mcarpenter/afl.git
 git clone https://github.com/Suspicious-Shell-Activity/venom.git
 git clone https://github.com/SpiderLabs/Responder.git
