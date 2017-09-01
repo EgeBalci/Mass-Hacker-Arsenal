@@ -59,6 +59,8 @@ mkdir Toolkit
 cd Toolkit
 
 # Git Repos...
+
+git clone https://github.com/UnkL4b/GitMiner.git
 git clone https://github.com/VirusTotal/qt-virustotal-uploader.git
 git clone https://github.com/DataSploit/datasploit.git
 git clone https://github.com/mcarpenter/afl.git
