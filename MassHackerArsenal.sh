@@ -59,7 +59,8 @@ mkdir Toolkit
 cd Toolkit
 
 # Git Repos...
-
+git clone https://github.com/Screetsec/TheFatRat.git
+git clone https://github.com/egebalci/Amber.git
 git clone https://github.com/secretsquirrel/SigThief.git
 git clone https://github.com/UnkL4b/GitMiner.git
 git clone https://github.com/VirusTotal/qt-virustotal-uploader.git
